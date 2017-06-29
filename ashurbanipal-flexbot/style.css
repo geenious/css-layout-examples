@@ -6,8 +6,41 @@ Colors
 
 */
 
+.container {
+  width: 75%;
+  margin: 0 auto;
+  font-family: sans-serif;
+  border: 1px solid rgb(62, 126, 109);
+}
 
-
-header {
+header,
+footer {
   background: rgb(62, 126, 109);
+  color: white;
+}
+
+h1 {
+  padding: 40px 20px;
+  margin: 0;
+}
+
+.main-content {
+  display: flex;
+  font-family: serif;
+}
+
+.sidebar {
+  background-color: rgb(122,253,219);
+  padding: 0 20px;
+  width: 25%;
+  border-right: 1px solid rgb(62, 126, 109);
+}
+
+article {
+  width: 75%;
+  padding: 0 10px;
+}
+
+footer {
+  padding: 20px;
 }
